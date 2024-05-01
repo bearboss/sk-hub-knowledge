@@ -1,0 +1,41 @@
+Windows Registry Editor Version 5.00
+ 
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\cmd_here]
+ 
+@="CMD here"
+"Icon"="cmd.exe"
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\cmd_here\command]
+ 
+@="\"C:\\Windows\\System32\\cmd.exe\""
+ 
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\cmdPrompt]
+ 
+@="CMD here"
+ 
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\cmdPrompt\command]
+ 
+@="\"C:\\Windows\\System32\\cmd.exe\" \"cd %1\""
+ 
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\cmd_here]
+ 
+@="CMD here"
+"Icon"="cmd.exe"
+ 
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\cmd_here\command]
+ 
+@="\"C:\\Windows\\System32\\cmd.exe\""
+————————————————
+版权声明：本文为CSDN博主「doulicau」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/doulicau/article/details/106677365
